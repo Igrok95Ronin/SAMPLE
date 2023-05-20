@@ -24,6 +24,6 @@
         {
             "format": "compressed", // expanded
             "extensionName": ".min.css",
-            "savePath": "~/../css/"
+            "savePath": "~/../../app/css/"
         }
     ]
