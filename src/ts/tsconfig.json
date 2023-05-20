@@ -2,9 +2,9 @@
     "compilerOptions":{//настраивает параметры компиляции
         "target": "ES6",//указываем стандарт
         "removeComments":true,//удаляем коментарии при комбиляции
-        "outDir": "../js/app.js",//папка выходного файла
+        "outDir": "../../app/js/app.js",//папка выходного файла
         "sourceMap":true,//карта
-        "outFile": "../js/app.js",//имя выходного файла
+        "outFile": "../../app/js/app.js",//имя выходного файла
         "noEmitOnError": true,//что не надо генерировать файл javascript, если при компиляции возникли ошибки
         "alwaysStrict": true,//Компилятор будет парсить код в strict mode и добавлять “use strict” в выходные файлы. По умолчанию false, но если включен флаг strict, то true.
         "forceConsistentCasingInFileNames" :true, //Включает режим чувствительности к регистру (case-sensitive) для импорта файлов.
